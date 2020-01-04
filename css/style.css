@@ -12,7 +12,7 @@ body{
     color: white;
 }
 h1, h2, h3{
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 a{
@@ -25,8 +25,26 @@ a{
     max-width: 1000px;
     margin: auto;
 }
+.text-primary{
+    color: #ecafc0;
+}
 
+.lead{
+    font-size: 20px;
+    margin: auto;
+}
 
+.btn{
+    line-height: 100px;
+    background-color: rgba(59, 45, 116, 0.7);
+    padding: 15px 25px;
+    font-weight: bold;
+}
+    .btn:hover,
+    .btn:active{
+        color: #3b2d74;
+        background-color: white;
+    }
 /* Main Header */
 .main-header{
     background-color: #0d052c;
@@ -59,3 +77,13 @@ a{
                 color: #ecafc0;
             }
 
+    .showcase{
+        background: url("../img/showcase.jpg") no-repeat center center/cover;   
+        margin-top: 59px;
+        height: 80vh;
+        text-align: center;
+        padding-top: 150px;
+    }
+        .showcase p{
+            max-width: 620px;
+        }
