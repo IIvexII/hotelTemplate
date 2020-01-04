@@ -62,6 +62,9 @@ a{
         margin-top: 5px;
         float: left;
     }
+        .main-header__brand a:focus{
+            outline: none;
+        }
         .main-header__brand img{
             width: 55px;
         }
@@ -117,8 +120,42 @@ a{
         overflow: hidden;
     }
         .info__heading{
-            margin-top: 60px;
+            margin-top: 5%;
         }
         .info__paragraph{
-            padding: 20px;
+            padding: 5%;
+            max-width: 450px;
+            margin: auto;
         }
+
+/* For Tablets */
+@media only screen and (max-width:660px){
+    #home-info .info{
+        padding: 10px;
+    }
+    #home-info .info__heading{
+        font-size: 17px;
+    }
+    #home-info .info__paragraph{
+        font-size: 15px;
+    }
+}
+
+/* For Mobiles */
+@media only screen and (max-width:470px){
+    /* Navbar */
+    .navbar__items li a{
+        padding: 23px 10px;
+    }
+    #home-info .info{
+        padding: 5px;
+    }
+    #home-info .info__heading{
+        font-size: 15px;
+    }
+    #home-info .info__paragraph{
+        font-size: 13.5px;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+}
