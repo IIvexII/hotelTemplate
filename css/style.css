@@ -56,6 +56,9 @@ a{
         padding: 10px;
         float: left;
     }
+        .main-header__brand img{
+            width: 55px;
+        }
     .main-header__navbar{
         float: right;
     }
@@ -66,8 +69,9 @@ a{
         }
 
         .navbar__items li a{
+            font-size: 20px;
             display: block;
-            padding: 20px;
+            padding: 30px;
             text-decoration: none;
         }
             
@@ -79,11 +83,12 @@ a{
 
     .showcase{
         background: url("../img/showcase.jpg") no-repeat center center/cover;   
-        margin-top: 59px;
+        /* margin-top: 84px; */
         height: 80vh;
         text-align: center;
         padding-top: 150px;
     }
+
         .showcase p{
             max-width: 620px;
         }
