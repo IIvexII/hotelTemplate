@@ -1,0 +1,61 @@
+/* Reset */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Main Styling */
+body{
+    background-color: #1f1549;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+h1, h2, h3{
+    margin-bottom: 50px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+/* Utilities */
+.container{
+    max-width: 1000px;
+    margin: auto;
+}
+
+
+/* Main Header */
+.main-header{
+    background-color: #0d052c;
+    overflow: auto;
+}
+
+    .main-header__brand{
+        margin: 0;
+        padding: 10px;
+        float: left;
+    }
+    .main-header__navbar{
+        float: right;
+    }
+
+        .navbar__items li{
+            list-style: none;
+            float: left;
+        }
+
+        .navbar__items li a{
+            display: block;
+            padding: 20px;
+            text-decoration: none;
+        }
+            
+            .navbar__items li a:hover,
+            .active{
+                background-color: #3b2d74;
+                color: #ecafc0;
+            }
+
