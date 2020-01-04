@@ -53,7 +53,7 @@ a{
 
     .main-header__brand{
         margin: 0;
-        padding: 10px;
+        margin-top: 5px;
         float: left;
     }
         .main-header__brand img{
@@ -71,7 +71,7 @@ a{
         .navbar__items li a{
             font-size: 20px;
             display: block;
-            padding: 30px;
+            padding: 23px;
             text-decoration: none;
         }
             
