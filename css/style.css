@@ -24,6 +24,7 @@ a{
 .container{
     max-width: 1000px;
     margin: auto;
+    padding: 0 10px;
 }
 .text-primary{
     color: #ecafc0;
@@ -45,9 +46,14 @@ a{
         color: #3b2d74;
         background-color: white;
     }
-/* Main Header */
-.main-header{
+/* Dark Utilities */
+.bg-dark{
     background-color: #0d052c;
+    color: white;
+}
+
+/* Main Header */
+#main-header{
     overflow: auto;
 }
 
@@ -81,14 +87,38 @@ a{
                 color: #ecafc0;
             }
 
-    .showcase{
-        background: url("../img/showcase.jpg") no-repeat center center/cover;   
-        /* margin-top: 84px; */
-        height: 80vh;
-        text-align: center;
-        padding-top: 150px;
+/* Main Section */
+#showcase{
+    background: url("../img/showcase.jpg") no-repeat center center/cover;   
+    height: 80vh;
+    text-align: center;
+    padding-top: 150px;
+}
+
+    #showcase p{
+        max-width: 620px;
     }
 
-        .showcase p{
-            max-width: 620px;
+#home-info{
+    height: 470px;
+}
+
+    #home-info .info__img{
+        float: left;
+        background: url("../img/photo-1.jpg") no-repeat center center/cover;
+        width: 50%;
+        height: 100%;
+    }
+    #home-info .info{
+        text-align: center;
+        float: right;
+        width: 50%;
+        padding: 20px;
+        overflow: hidden;
+    }
+        .info__heading{
+            margin-top: 60px;
+        }
+        .info__paragraph{
+            padding: 20px;
         }
