@@ -170,6 +170,13 @@ a{
     #home-info .info__paragraph{
         font-size: 15px;
     }
+    /* Feature */
+    .box h2{
+        font-size: 16px;
+    }
+    .box p{
+        font-size: 14px;
+    }
 }
 
 /* For Mobiles */
@@ -188,5 +195,18 @@ a{
         font-size: 13.5px;
         padding-top: 0;
         padding-bottom: 0;
+    }
+    /* Feature */
+    .box{
+        float: none;
+        width: 100%;
+    }
+    .box h2{
+        font-size: 24px;
+        margin-bottom: 13px;
+    }
+    .box p{
+        max-width: 200px;
+        margin: auto;
     }
 }
