@@ -51,6 +51,14 @@ a{
     background-color: #0d052c;
     color: white;
 }
+.bg-light{
+    background-color: #b3a2f6;
+    color: black;
+}
+.bg-primary{
+    background-color: #291a66;
+    color: white;
+}
 
 /* Main Header */
 #main-header{
@@ -93,7 +101,7 @@ a{
 /* Main Section */
 #showcase{
     background: url("../img/showcase.jpg") no-repeat center center/cover;   
-    height: 80vh;
+    height: 450px;
     text-align: center;
     padding-top: 150px;
 }
@@ -128,8 +136,22 @@ a{
             margin: auto;
         }
 
+/* Features */
+.box{
+    float: left;
+    width: 33.3%;
+    text-align: center;
+    padding: 20px;
+    padding-top: 40px;
+}
+
+.box img{
+    width: 50px;
+    margin-bottom: 10px;
+}
+
 /* For Tablets */
-@media only screen and (max-width:680px){
+@media only screen and (max-width:690px){
     /* Showcase */
     #showcase h1{
         font-size: 40px;
@@ -140,6 +162,7 @@ a{
     /* Home Info */
     #home-info .info{
         padding: 10px;
+        padding-bottom: 0;
     }
     #home-info .info__heading{
         font-size: 17px;
@@ -150,7 +173,7 @@ a{
 }
 
 /* For Mobiles */
-@media only screen and (max-width:470px){
+@media only screen and (max-width:480px){
     /* Navbar */
     .navbar__items li a{
         padding: 23px 10px;
