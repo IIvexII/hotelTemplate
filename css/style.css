@@ -46,6 +46,10 @@ a{
         color: #3b2d74;
         background-color: white;
     }
+
+.clr{
+    clear: both;
+}
 /* Dark Utilities */
 .bg-dark{
     background-color: #0d052c;
@@ -140,6 +144,7 @@ a{
 .box{
     float: left;
     width: 33.3%;
+    height: 300px;
     text-align: center;
     padding: 20px;
     padding-top: 40px;
@@ -148,6 +153,12 @@ a{
 .box img{
     width: 50px;
     margin-bottom: 10px;
+}
+
+/* Footer */
+.main-footer{
+    text-align: center;
+    padding: 20px;
 }
 
 /* For Tablets */
