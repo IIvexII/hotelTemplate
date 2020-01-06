@@ -156,6 +156,47 @@ a{
     margin-bottom: 10px;
 }
 
+/* About */
+#about-info{
+    padding: 20px;
+}
+#about-info p{
+    float: left;
+    width: 50%;
+    line-height: 1.4rem;
+}
+#about-info img{
+    display: block;
+    float: right;
+    width: 200px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+#testimonial {
+    background: url("../img/test-bg.jpg") no-repeat center center/cover;
+    text-align: center;
+    padding: 30px 0 50px 0;
+    margin-top: 30px;
+}
+#testimonial .testimonial{
+    padding: 20px 0;
+}
+#testimonial h1{
+    padding-top: 100px;
+    font-size: 30px;
+}
+#testimonial .testimonial img{
+    width: 100px;
+    float: left;
+    border-radius: 50%;
+}
+#testimonial .testimonial p{
+    float: right;
+    width: 80%;
+    padding-top: 20px;
+    font-size: 19px;
+}
 /* Footer */
 .main-footer{
     text-align: center;
