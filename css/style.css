@@ -266,6 +266,33 @@ a{
     .box p{
         font-size: 14px;
     }
+    /* About Page */
+    #about-info h1{
+        font-size: 36px;
+    }
+    #about-info p{
+        width: 100%;
+        font-size: 20px;
+        line-height: 1.5rem;
+        text-align: justify;
+    }
+    #about-info img{
+        display:none;
+    }
+    #testimonial h1{
+        font-size: 40px;
+    }
+
+    #testimonial .testimonial img{
+        float: none;
+        display: block;
+        width: 120px;
+        margin: 0 auto;
+    }
+    #testimonial .testimonial p{
+        width: 100%;
+        font-size: 19px;
+    }
 }
 
 /* For Mobiles */
@@ -311,4 +338,8 @@ a{
         max-width: 200px;
         margin: auto;
     }
+    /* About Page */
+    #testimonial h1{
+        font-size: 150%;
+    }    
 }
