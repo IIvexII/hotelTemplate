@@ -36,10 +36,14 @@ a{
 }
 
 .btn{
-    line-height: 100px;
+    /* line-height: 100px; */
+    display: inline-block;
+    margin-top: 20px;
     background-color: rgba(59, 45, 116, 0.7);
     padding: 15px 25px;
     font-weight: bold;
+    border: none;
+    color: white;
 }
     .btn:hover,
     .btn:active{
@@ -154,6 +158,38 @@ a{
 .box img{
     width: 50px;
     margin-bottom: 10px;
+}
+/* Contact us page */
+#contact-form{
+    padding-top: 30px;
+    background: url("../img/contaact-us-bg.jpg") center center/cover;
+    height:600px ;
+}
+#contact-form .container{
+    max-width: 500px;
+}
+#contact-form .contact-field{
+    margin-bottom: 20px;
+}
+#contact-form .contact-field label{
+    display: block;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+#contact-form .contact-field input,
+#contact-form .contact-field textarea{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+}
+#contact-form .contact-field textarea{
+    height: 120px;
+}
+
+#contact-form .btn{
+    margin-bottom: 20px;
+    background-color: rgba(59, 45, 116, 0.6);
 }
 
 /* About */
