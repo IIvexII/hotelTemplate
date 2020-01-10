@@ -48,7 +48,7 @@ a{
     .btn:hover,
     .btn:active{
         color: #3b2d74;
-        background-color: white;
+        background-color: white !important;
     }
 
 .clr{
